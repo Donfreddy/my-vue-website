@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/**
+ * Custom
+*/
+
+@layer components {
+  .content {
+    @apply container max-w-7xl mx-auto px-4 sm:px-6;
+  }
+
+  .transit {
+    @apply transition duration-500 ease-in-out;
+  }
+
+  .vertical-p {
+    @apply py-10 md:py-16 lg:py-24;
+  }
+}
