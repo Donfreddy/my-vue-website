@@ -3,8 +3,41 @@
     <Navbar />
     <!--Hero section-->
     <Hero />
-    <div class="m-0 bg-dark h-72"></div>
-    <div class="m-0 bg-darkGrey py-24">
+    <div class="bg-dark py-24 text-white">
+      <div class="content">
+        <div class="flex flex-col md:flex-row">
+          <div class="flex-1">
+            <Services />
+          </div>
+          <div class="flex-1">
+            <div class="w-full md:w-2/3 flex flex-col">
+              <span class="text-sm text-grey">Présentation</span>
+              <h1 class="text-5xl font-bold leading-tight mt-4">Salut! Je suis Don Freddy</h1>
+              <div class="my-8 text-lg">
+                Lorem ipsum dolor si h f ioasdif sd sd fsdt amet consectetur adipisicing
+              </div>
+              <p class="text-grey text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat assumenda
+                quidem. Amet numquam labore expedita sunt pariatur! Repudiandae libero at fugit nemo
+                aut dignissimos labore veniam officia eveniet maiores. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Sequi, fugiat vel. Illum at voluptatum, optio aliquam
+                vel ducimus eos, sequi modi veritatis libero et similique eveniet odio! Aut, eveniet
+                reiciendis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-darkGrey py-24 text-white">
+      <div class="content">
+        <div class="flex flex-col md:flex-row">
+          <div class="flex-1"><Education /></div>
+          <div class="flex-1"><Education /></div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark py-24">
       <div class="mx-5 lg:w-6/12 bg-dark shadow-xl rounded-lg overflow-hidden">
         <div id="header-buttons" class="py-3 px-4 flex">
           <div class="rounded-full w-3 h-3 bg-red-500 mr-2"></div>
@@ -89,6 +122,8 @@ import { defineComponent } from 'vue';
 import Navbar from '@/components/core/Navbar.vue';
 import Footer from '@/components/core/Footer.vue';
 import Hero from '@/components/section/Hero.vue';
+import Services from '@/components/Services.vue';
+import Education from '@/components/Education.vue';
 
 export default defineComponent({
   name: 'Index',
@@ -96,6 +131,8 @@ export default defineComponent({
     Navbar,
     Footer,
     Hero,
+    Services,
+    Education,
   },
 });
 </script>

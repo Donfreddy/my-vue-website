@@ -20,7 +20,6 @@ module.exports = {
   theme: {
     colors: {
       primary: '#65F4AB',
-      darkGreen: '#33423e',
       secondary: '#FD504F',
       bgColor: '#333438',
       dark: '#25262A',

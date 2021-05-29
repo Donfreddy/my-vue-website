@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-darkGrey">
-    <div class="container mx-auto px-4 sm:px-6">
+  <div class="bg-darkGrey" id="top">
+    <div class="content">
       <div class="flex justify-between items-center py-6">
         <div class="text-white lg:text-2xl">
           <router-link to="/"
