@@ -118,9 +118,7 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'Services',
-  methods: {
-    name() {},
-  },
+  methods: {},
 });
 </script>
 
